@@ -1,6 +1,7 @@
 /* variables */
 :root {
   --primary: #ffffff;
+  --ultimate: #000000;
   --secondary: rgb(99, 72, 50);
   --secondary_light: rgba(99, 72, 50, 0.8);
   --nav_hover: rgba(219, 193, 172, 0.5);
@@ -10,8 +11,8 @@
   --dark: rgb(56, 34, 15);
   --dark_light: rgba(56, 34, 15, 0.5);
   --mid: rgb(150, 114, 89);
-  --heading: "K2D", sans-serif;
-  --paragraph: "Roboto", sans-serif;
+  --heading: "Consolas", "Consolas";
+  --paragraph: "Consolas", "Consolas";
   --footer_opacity: 0.5;
 }
 
@@ -64,7 +65,7 @@ a {
 }
 
 body .main {
-  background: url(https://source.unsplash.com/ikU3J1nr52w/4480×6720);
+  background: url(https://i.redd.it/14oyfd48d9s71.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
