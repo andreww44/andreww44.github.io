@@ -1,0 +1,23 @@
+/* variables */
+:root {
+    --primary: #ffffff;
+    --secondary: rgb(50, 99, 91);
+    --secondary_light: rgba(50, 93, 99, 0.8);
+    --ter: rgb(7, 157, 177);
+    --nav_hover: rgba(2, 41, 41, 0.7);
+    --aquarius: aqua;
+    --light_hover: rgba(209, 235, 236, 0.5);
+    --light: rgb(209, 236, 234);
+    --light_ultra_light: rgba(236, 224, 209, 0.5);
+    --dark: rgb(15, 53, 56);
+    --dark_light: rgba(15, 56, 54, 0.5);
+    --mid: rgb(38, 65, 65, 0.95);
+    --mid_2: rgba(36, 131, 131, 1);
+    --heading: "Consolas", "Consolas";
+    --paragraph: "Consolas", "Consolas";
+    --footer_opacity: 0.5;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
