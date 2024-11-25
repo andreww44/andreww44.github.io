@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <script src="main.js"></script>
-  <title>Álvaro Monsalve GamePortfolios</title>
+  
+  <title>Álvaro Monsalve Portafolio</title>
 </head>
 
 <body>
@@ -16,16 +16,16 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">GamePortfolios</a>
+                <a href="#">Portafolio</a>
             </div>
             <nav id="nav">
                 <ul>
                     <li> <a href="#inicio">Inicio</a></li>
-                    <li> <a href="#sobremi">Sobre mi</a></li>
+                    <li> <a href="#sobremi">Sobre mí</a></li>
                     <li> <a href="#skills">Skills</a></li>
-                    <li> <a href="#curriculum">CV</a></li>
-                    <li> <a href="#portfolio">GamePortfolios</a></li>
-                    <li> <a href="#contacto">Contact Me</a></li>
+                    <li> <a href="#curriculum">Aprendizajes</a></li>
+                    <li> <a href="#portfolio">Portafolios</a></li>
+                    <li> <a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive">
@@ -56,12 +56,12 @@
     <section>
         <section id="sobremi" class="sobremi">
             <div class="contenido-seccion">
-                <h2>Sobre mi</h2>
-                <p><span>Hola, soy Alvaro Monsalve</span> 
-                    estudiante de tercer año de la carrera de 
-                    IDVRV, mi objetivo es ser parte de la industria de videojuegos. 
-                    Suelo realizar experiencias en el motor de 
-                    <span>Unity</span> en el ambito 2D y 3D.
+                <h2>Sobre mí</h2>
+                <p><span>Hola, soy Álvaro Monsalve</span> 
+                    estudiante de tercer año de la carrera de Ingeniería en Desarrollo de Videojuegos y Realidad Virtual. 
+                    Mi objetivo es integrarme y crecer dentro de la industria de los videojuegos, aportando mis conocimientos y creatividad. 
+                    Tengo experiencia desarrollando proyectos en 2D y 3D, utilizando el motor 
+                    <span>Unity</span> Unity para crear experiencias inmersivas y dinámicas.
                 </p>
                 <div class="fila">
                     <!--Datos Personales-->
@@ -72,7 +72,7 @@
                                 <strong>Correo</strong>monsalve.andres.salas@gmail.com
                             </li>
                             <li>
-                                <strong>Edad</strong>22
+                                <strong>Edad</strong>23
                             </li>
                             <li>
                                 <strong>Discord</strong>.asheratto
@@ -81,7 +81,7 @@
                                 <strong>Itch</strong>asheratto
                             </li>
                             <li>
-                                <strong>Nacionalidad</strong>Chilena
+                                <strong>Nacionalidad</strong>Chile
                             </li>
                             <li>
                                 <strong>Cargo</strong>Estudiante
@@ -105,10 +105,6 @@
                                 <i class="fa-solid fa-volleyball"></i>
                                 <span>Voleyball</span>
                             </div>
-                            <div class="interes">
-                                <i class="fa-solid fa-laptop"></i>
-                                <span>Anime</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -120,109 +116,186 @@
         </section>
     </section>
 
-    <!--Skills-->
-    <section class="skills" id="skills">
+    <!--Portafolios-->
+    <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!--Tecnichal Skills-->
-                <div class="col">
-                    <h3>Programing skills</h3>
+            <h2>Portafolio</h2>
+            <div class="galeria">
 
-                    <div class="skill">
-                        <div class="c">
-                            <span>C#</span>
-                            <div class="barra-skill">
-                                <div class="c">
-                                    <span>75%</span>
-                                </div>
-                            </div>
-                        </div>    
+                <div class="dosde" data-modal-id="modal-shieldclash">
+                    <img src="img/shieldclash.png" alt="">
+                    <div class="overlay">
+                      <h3>Shield Clash</h3>
                     </div>
-
-                    <div class="skill">
-                        <div class="cmas">
-                            <span>C++</span>
-                            <div class="barra-skill">
-                                <div class="cmas">
-                                    <span>75%</span>
-                                </div>
-                            </div>
+                  </div>
+    
+                <div class="dosde" data-modal-id="modal-trompoinador">
+                    <img src="img/trompoinador.png" alt="">
+                        <div class="overlay">
+                            <h3>Trompo-Inador</h3>
                         </div>
-                    </div>
-
-                    <div class="skill">
-                        <div class="kotlin">
-                            <span>Kotlin</span>
-                            <div class="barra-skill">
-                                <div class="kotlin">
-                                    <span>70%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill">
-                        <div class="html">
-                            <span>WebDesign</span>
-                            <div class="barra-skill">
-                                <div class="html">
-                                    <span>40%</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                    </a>
                 </div>
-                <!--Profesional skills-->
-                <div class="col">
-                    <h3>Design skills</h3>
 
-                    <div class="skill">
-                        <div class="photoshop">
-                            <span>Photoshop</span>
-                            <div class="barra-skill">
-                                <div class="photoshop">
-                                    <span>40%</span>
-                                </div>
-                            </div>
+                <div class="dosde" data-modal-id="modal-roadtomeat">
+                    <img src="img/roadtomeat.png" alt="">
+                        <div class="overlay">
+                            <h3>Road To Meat</h3>
                         </div>
-                    </div>
-
-                    <div class="skill">
-                        <div class="ilustrator">
-                            <span>Ilustrator</span>
-                            <div class="barra-skill">
-                                <div class="ilustrator">
-                                    <span>60%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill">
-                        <div class="dsMax">
-                            <span>3dsMax</span>
-                            <div class="barra-skill">
-                                <div class="dsMax">
-                                    <span>70%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill">
-                        <div class="blender">
-                            <span>Blender</span>
-                            <div class="barra-skill">
-                                <div class="blender">
-                                    <span>30%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal" id="modal-shieldclash">
+        <div class="modal-header">
+            <h2 class="yellow" id="modal-title">Shield Clash</h2>
+            <button id="close-modal-shieldclash" class="close-btn">✕</button>
+        </div>
+        <div class="modal-content">
+            <div class="video-container">
+            <iframe
+                id="1"
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/jC3zh3zB8wY?si=bMrL3IeOlqbi5Ftd"
+                title="Shield-Clash-Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            </div>
+            <p id="modal-description">
+                Videojuego 2D Roguelike con arte Pixel Art, Shield Clash narra la historia de un guerrero encarcelado hace mucho tiempo, el caballero del escudo ya cansado de estar encerrado, decide tomar la decision de salir de su celda.
+            </p>
+            <div class="modal-icons">
+            <a href="https://gamemaker.io/en" target="_blank">
+                <button class="icon-button">
+                    <img src="img/gm.png" alt="GameMaker" />
+                </button>
+            </a>
+            <a href="https://www.adobe.com/cl/products/illustrator.html#modal-hash" target="_blank">
+                <button class="icon-button">
+                    <img src="img/ilustrator.png" alt="Ilustrator" />
+                </button>
+            </a>
+            <a href="https://j-mahana.itch.io/shield-clash" target="_blank">
+                <button class="icon-button">
+                    <img src="img/itch.jpg" alt="Descargar" />
+                </button>
+            </a>
+            
+            </div>
+        </div>
+    </div>
+        <div class="modal" id="modal-trompoinador">
+        <div class="modal-header">
+            <h2 class="yellow" id="modal-title">Trompo-Inador</h2>
+            <button id="close-modal-trompo" class="close-btn">✕</button>
+        </div>
+        <div class="modal-content">
+            <div class="video-container">
+                <iframe width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/_Hk5vnpsGyw?si=8dmPMi_0fNJ6qbJX" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            </div>
+            <p id="modal-description">
+            Trompo inador es un juego del tipo endless run, donde acompañamos a un científico que busca llegar al centro de la tierra con fines malévolos.
+            </p>
+            <div class="modal-icons">
+                <a href="https://gamemaker.io/en" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/gm.png" alt="GameMaker" />
+                    </button>
+                </a>
+                <a href="https://www.adobe.com/cl/products/illustrator.html#modal-hash" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/ilustrator.png" alt="Ilustrator" />
+                    </button>
+                </a>
+                <a href="https://j-mahana.itch.io/shield-clash" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/itch.jpg" alt="Descargar" />
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="modal" id="modal-roadtomeat">
+        <div class="modal-header">
+            <h2 class="yellow" id="modal-title">Road To Meat</h2>
+            <button id="close-modal-roadtomeat" class="close-btn">✕</button>
+        </div>
+        <div class="modal-content">
+            <div class="video-container">
+                <iframe width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/ZKj0Y6w14Uc?si=8ImT-unXtD9Zssm6" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            
+            </div>
+            <p id="modal-description">
+            Road to Meat es un juego survival horror, inspirado en clásicos del terror como Resident Evil y Silent Hill.
+            </p>
+            <div class="modal-icons">
+                <a href="https://unity.com/es" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/unity.png" alt="Unity" />
+                    </button>
+                </a>
+                <a href="https://www.adobe.com/cl/products/photoshop.html#modal-hash" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/photoshop.png" alt="Photoshop" />
+                    </button>
+                </a>
+                <a href="https://www.blender.org/" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/blender.png" alt="Blender" />
+                    </button>
+                </a>
+                <a href="https://asheratto.itch.io/road-to-meat" target="_blank">
+                    <button class="icon-button">
+                        <img src="img/itch.jpg" alt="Descargar" />
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="iconos-habilidades">
+            <!-- Icono de HTML -->
+            <div class="icono">
+                <img src="img/unity.png" alt="HTML" />
+                <p>Unity</p>
+            </div>
+            <!-- Icono de CSS -->
+            <div class="icono">
+                <img src="img/gm.png" alt="CSS" />
+                <p>Game Maker</p>
+            </div>
+            <!-- Icono de JavaScript -->
+            <div class="icono">
+                <img src="img/Godot_icon.png" alt="JavaScript" />
+                <p>Godot</p>
+            </div>
+            <!-- Icono de React -->
+            <div class="icono">
+                <img src="img/ilustrator.png" alt="React" />
+                <p>Ilustrator</p>
             </div>
         </div>
     </section>
@@ -230,13 +303,22 @@
     <!--CV-->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2>Aprendizajes</h2>
             <div class="fila">
                 <!--Columnas-->
                 <div class="col izquierda">
-                    <h3>Educacion</h3>
+                    <h3>Educación Superior</h3>
                     <div class="item izq">
-                        <h3>Educacion Media</h3>
+                        <h3>Ingeniería en Desarrollo de Videojuegos y Realidad Virtual</h3>
+                        <span class="casa">Universidad de Talca</span>
+                        <span class="fecha">2020 - Actualidad</span>
+                        <p>Enseñanza superior</p>
+                        <div class="conecori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h3>Educación Media</h3>
                         <span class="casa">Liceo Bicentenario María del Tránsito de la Cruz Molina</span>
                         <span class="fecha">2018 - 2019</span>
                         <p>Enseñanza Media</p>
@@ -244,83 +326,26 @@
                             <div class="circuloi"></div>
                         </div>
                     </div>
-                    <div class="item izq">
-                        <h3>Ingeniería en Desarrollo de Videojue y Realidad Virtual</h3>
-                        <span class="casa">Universidad de Talca</span>
-                        <span class="fecha">2020 - Actualidad</span>
-                        <p>Eseñanza superior</p>
-                        <div class="conecori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
                 </div>
-
+                
                 <div class="col derecha">
                     <h3>Experiencia Laboral</h3>
                     <div class="item der">
-                        <h3>Ayudante de profesor</h3>
-                        <span class="casa">Universidad de Talca</span>
-                        <span class="fecha">2021 1er Semestre</span>
-                        <p>Ayudante del ramo de Programación Orientada a Objetos</p>
-                        
+                        <h3>Prácticante</h3>
+                        <span class="casa">Genkai Studio</span>
+                        <span class="fecha">2023 Enero-Febrero</span>
+                        <p>Trabajo en el entorno de Unity para desarrollar interfaces para un simulador de caja de supermercado.</p>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!--Portfolio-->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>Portfolio</h2>
-            <div class="galeria">
-
-                <div class="dosde">
-                    <img src="img/2d.PNG" alt="">
-                    <a href="blogs/dosde.html">
-                        <div class="overlay">
-                            <h3>Videojuegos 2D</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="dosde">
-                    <img src="img/fondo.jpg" alt="">
-                    <a href="blogs/tresde.html">
-                        <div class="overlay">
-                            <h3>Videojuegos 3D</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="dosde">
-                    <img src="img/android.png" alt="">
-                    <a href="blogs/android.html">
-                        <div class="overlay">
-                            <h3>Android</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="dosde">
-                    <img src="img/blender.png" alt="">
-                    <a href="blogs/blender.html">
-                        <div class="overlay">
-                            <h3>Blender</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-        </div>
-    </section>
 
     <!--Seccion contacto-->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>Contacto</h2>
             <div class="fila">
                 <!--formulario-->
                 <div class="col">
@@ -336,10 +361,12 @@
 
         </div>
         <div class="creditos">
-            <h3>Hecho por Alvaro Monsalve</h3>
+            <h3>Hecho por Álvaro Monsalve</h3>
         </div>
     </section>
-    
+    <script src="main.js"></script>
 </body>
+
+
 
 </html>
