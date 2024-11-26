@@ -762,7 +762,7 @@ a {
 
 .icono p {
   font-size: 14px;
-  color: #333;
+  color: var(--white);
   margin: 0;
 }
 
