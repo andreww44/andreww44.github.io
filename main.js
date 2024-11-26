@@ -3,6 +3,7 @@ const dosdeElements = document.querySelectorAll('.dosde');
 const modalOverlay = document.getElementById('modal-overlay');
 const closeModalButtons = document.querySelectorAll('.close-btn'); // Cambiado para seleccionar por clase
 
+
 // Recorremos cada elemento .dosde
 dosdeElements.forEach(dosde => {
   // Asignamos un evento de clic a cada elemento
@@ -37,15 +38,7 @@ modalOverlay.addEventListener('click', () => {
   modalOverlay.style.display = 'none';
 });
 
-// Código para el menú (sin cambios)
-$(document).ready(function() {
-  $(".menu").click(function() {
-    $(".nav_bar").addClass("show");
-  });
-  $(".close_btn").click(function() {
-    $(".nav_bar").removeClass("show");
-  });
-});
+
 
 
 
