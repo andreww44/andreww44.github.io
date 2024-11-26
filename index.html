@@ -371,13 +371,13 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
         (function() {
-            emailjs.init("TU_USER_ID"); // Reemplaza con tu User ID de EmailJS
+            emailjs.init("Ml7BKGBWmLoGNSjth"); // Reemplaza con tu User ID de EmailJS
         })();
 
         document.getElementById("contact-form").addEventListener("submit", function(e) {
             e.preventDefault(); // Evita el recargo de la página
 
-            emailjs.sendForm("TU_SERVICE_ID", "TU_TEMPLATE_ID", this)
+            emailjs.sendForm("service_9cdowr7", "template_621subp", this)
                 .then(function() {
                     alert("Mensaje enviado con éxito.");
                 }, function(error) {
