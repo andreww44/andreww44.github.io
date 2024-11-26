@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verificar que todos los campos estén llenos
     if ($nombre && $correo && $mensaje) {
         // Configurar detalles del correo
-        $to = "tu_correo@ejemplo.com"; // Reemplaza con tu dirección de correo
+        $to = "monsalve.andres.salas@gmail.com"; // Reemplaza con tu dirección de correo
         $subject = "Nuevo mensaje de contacto"; // Asunto del correo
         $body = "Nombre: $nombre\nCorreo: $correo\n\nMensaje:\n$mensaje"; // Cuerpo del mensaje
         $headers = "From: $correo\r\n"; // Cabeceras del correo
