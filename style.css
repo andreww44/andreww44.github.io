@@ -766,73 +766,79 @@ a {
   margin: 0;
 }
 
+/* Menú responsivo y adaptaciones para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  #nav {
+    display: none; /* Ocultar el menú por defecto */
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px; /* Ajustar según el tamaño del header */
+    right: 0;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
-/* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
-  nav{
-      display: none;
+  #nav.active {
+    display: flex; /* Mostrar el menú al activar la clase */
   }
-  .nav-responsive{
-      display: block;
+
+  .nav-responsive {
+    display: block; /* Mostrar el ícono del menú */
   }
-  nav.responsive{
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 75px;
-      background-color: var(--black);
-      width: 180px;
+
+  .contenedor-header header {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  nav.responsive ul{
-      display: block !important;
+
+  .contenedor-header header ul {
+    display: none; /* Oculta el menú por defecto */
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background: var(--black);
   }
-  nav.responsive ul li{
-      border-bottom: 1px solid var(--white);
-      padding: 10px 0;
+
+  .contenedor-header header ul.active {
+    display: flex; /* Mostrar el menú al activar */
+  }
+
+  .contenedor-header header ul li {
+    margin: 10px 0; /* Espaciado entre los elementos */
   }
 }
-@media screen and (max-width:700px){
-  .sobremi .fila{
-      display: block;
-  }
-  .sobremi .fila .col{
-      width: fit-content;
+
+/* Ajustes específicos para pantallas aún más pequeñas */
+@media screen and (max-width: 700px) {
+  .sobremi .fila,
+  .skills .fila,
+  .curriculum .fila,
+  .portfolio .galeria,
+  .contacto .fila {
+    display: block;
   }
 
-  .skills .fila{
-      display: block;
-  }
-  .skills .fila .col{
-      width: 100%;
-  }
-  .skills .fila .col .barra-skill{
-      width: 100%;
+  .sobremi .fila .col,
+  .skills .fila .col,
+  .contacto .fila .col {
+    width: 100%;
   }
 
-  .curriculum .fila{
-      display: block;
-  }
-  .curriculum .fila .col{
-      width: 90%;
-  }
-  .curriculum .fila .derecha{
-      margin-left: 20px;
+  .skills .fila .col .barra-skill,
+  .portfolio .galeria .dosde img {
+    width: 100%;
   }
 
-  .portfolio .galeria{
-      display: block;
-      width: 100%;
+  .curriculum .fila .col {
+    width: 90%;
   }
-  .portfolio .galeria .dosde{
-      max-width: 100%;
+
+  .curriculum .fila .derecha {
+    margin-left: 20px;
   }
-  .portfolio .galeria .dosde img{
-      width: 100%;
-  }
-  .contacto .fila{
-      display: block;
-  }
-  .contacto .fila .col{
-      width: 100%;
+
+  .portfolio .galeria .dosde {
+    max-width: 100%;
   }
 }

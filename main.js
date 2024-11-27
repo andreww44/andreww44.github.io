@@ -3,7 +3,6 @@ const dosdeElements = document.querySelectorAll('.dosde');
 const modalOverlay = document.getElementById('modal-overlay');
 const closeModalButtons = document.querySelectorAll('.close-btn'); // Cambiado para seleccionar por clase
 
-
 // Recorremos cada elemento .dosde
 dosdeElements.forEach(dosde => {
   // Asignamos un evento de clic a cada elemento
